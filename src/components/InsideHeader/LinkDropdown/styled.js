@@ -18,7 +18,6 @@ export const DropdownButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  align-items: center;
   background-color: transparent;
   font-size: 1.24rem;
   font-weight: 500;
@@ -58,6 +57,11 @@ export const ArrowIcon = styled.span`
 `;
 
 export const DropdownList = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 100%;
   left: 0;

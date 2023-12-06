@@ -20,7 +20,7 @@ export const Container = styled.header`
   transition: background 0.3s ease;
 
   @media (max-width: 873px) {
-    height: ${(props) => (props.isMobileMenuOpen ? "100vh" : "auto")};
+    min-height: ${(props) => (props.isMobileMenuOpen ? "100vh" : "auto")};
   }
 
   nav {
@@ -97,7 +97,7 @@ export const ContainerMobile = styled.div`
   flex-direction: column;
   align-items: center; 
   justify-content: center;
-  gap: 4rem;
+  gap: 5rem;
 
   ${LinkList} {
     width: 100%;
@@ -106,7 +106,7 @@ export const ContainerMobile = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
+    gap: 6rem;
     padding: 5rem 0 4rem 0;
     border-bottom: 2px solid ${theme.lightBlue};
 
