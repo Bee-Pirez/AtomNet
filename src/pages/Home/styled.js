@@ -58,7 +58,6 @@ export const BenefitsSection = styled.section`
     > div {
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
       width: 80%;
       gap: 1rem;
       
@@ -75,7 +74,6 @@ export const BenefitsSection = styled.section`
     > ul {
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
       gap: 5rem;
     }
 
@@ -100,18 +98,21 @@ export const BenefitsSection = styled.section`
       gap: 4.5rem;
       align-items: center;
 
-      > article {
-        width: 100%;
-      }
-    
+
       > div {
         width: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-around;
-        text-align: start;
+        justify-content: center;
+        text-align: center;
       }
+
+      > ul {
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+    }
 
   }
 
