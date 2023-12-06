@@ -97,8 +97,7 @@ export const ContainerMobile = styled.div`
   flex-direction: column;
   align-items: center; 
   justify-content: center;
-  justify-content: space-between;
-  gap: 5rem;
+  gap: 4rem;
 
   ${LinkList} {
     width: 100%;
@@ -107,8 +106,8 @@ export const ContainerMobile = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 8rem;
-    padding: 5rem 0 8rem 0;
+    gap: 4rem;
+    padding: 5rem 0 4rem 0;
     border-bottom: 2px solid ${theme.lightBlue};
 
     >a {

@@ -70,8 +70,8 @@ function InsideHeader({ children }) {
                     <ContainerMobile isOpen={isOpen}>
                         <LinkList>
                             <Link to="/InsideHome">Home</Link>
-                            <LinkDropdown items={[{ label: 'Anexo A', link: '/dropdown-link1' }, { label: 'Requisitos', link: '/dropdown-link2' }]} firstLinkLabel="Dropdown" />
-                            <Link to="/link2">Empresa</Link>
+                            <LinkDropdown items={[{ label: 'Anexo A', link: '/Questionario1' }, { label: 'Requisitos', link: '/Questionario2' }]} firstLinkLabel="Dropdown" />
+                            <Link>Empresa</Link>
                         </LinkList>
                         <div className='exitButton'><button className='exitButtonBtn'>
                             <FontAwesomeIcon icon={faSignOutAlt} />
