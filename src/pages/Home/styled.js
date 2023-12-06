@@ -138,14 +138,17 @@ export const CTASection= styled.section`
     display: flex;
     flex-direction: row;
     align-items: center;
-    
     justify-content: space-evenly;
     gap: 1rem;
     
       
-    >div {
+    .CTAContent {
       width: 30%;
       z-index: 4;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 1rem;
 
       > h2 {
         font-size: ${theme.fontBase_h2};
@@ -168,9 +171,17 @@ export const CTASection= styled.section`
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+
         >div{
           width: 100%;
           text-align: center;
+
+        }
+        
+        .CTAContent{
+            width: 100%;
+            align-items: center;
+            justify-content: center;
         }
 
         >img {

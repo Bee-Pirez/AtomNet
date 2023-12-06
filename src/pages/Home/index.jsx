@@ -4,7 +4,12 @@ import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button";
 import Header from "../../components/Header";
 import MembersCard from "../../components/MembersCard";
-import members from "../../assets/members.jpg";
+import member1 from "../../assets/member1.jpg";
+import member2 from "../../assets/member2.jpg";
+import member3 from "../../assets/member3.jpg";
+import member4 from "../../assets/member4.jpg";
+import member5 from "../../assets/member5.jpg";
+
 import {
   Container,
   MembersSection,
@@ -78,7 +83,7 @@ export function Home() {
         <Hero
           imageSrc={enterprise}
           title="Sobre a empresa"
-          description="O projeto em questão não apenas visa oferecer uma avaliação do nível de maturidade em Segurança da Informação, mas também traz consigo benefícios tangíveis para as organizações."
+          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem.Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem.Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem."
         ></Hero>
       </EnterpriseSection>
       <BenefitsSection>
@@ -108,13 +113,16 @@ export function Home() {
       <CTASection>
         <div>
           <img src={computer} alt="computador e segurança" />
-          <div>
-            <h2>Title 2</h2>
+          <div class="CTAContent">
+            <h2>Faça seu cadastro</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry lorem Ipsum has been the industrys standard dummy text
               ever.
             </p>
+            <Button type="secondary" size="small" fill={true} onClick={handleSignUp}>
+              Cadastrar
+            </Button>
           </div>
         </div>
         <Bubble></Bubble>
@@ -132,34 +140,34 @@ export function Home() {
         <CardsSection>
           {/* Usando o componente MembersCard */}
           <MembersCard
-            name="Nome Completo 1"
+            name="Andre Barreto"
             description="Descrição 1"
-            linkedinLink="https://www.linkedin.com/in/user1"
-            imageSrc={members}
+            linkedinLink="https://www.linkedin.com/in/andre-barreto-"
+            imageSrc={member1}
           />
           <MembersCard
-            name="Nome Completo 2"
+            name="Felipe Barboza"
             description="Descrição 2"
-            linkedinLink="https://www.linkedin.com/in/user2"
-            imageSrc={members}
+            linkedinLink="https://www.linkedin.com/in/felipe-barboza-a8555b221/"
+            imageSrc={member2}
           />
           <MembersCard
-            name="Nome Completo 3"
+            name="Fernando Ritt"
             description="Descrição 3"
-            linkedinLink="https://www.linkedin.com/in/user2"
-            imageSrc={members}
+            linkedinLink="https://www.linkedin.com/in/fernando-ritt?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            imageSrc={member3}
           />
           <MembersCard
-            name="Nome Completo 4"
+            name="Matheus Augusto"
             description="Descrição 4"
-            linkedinLink="https://www.linkedin.com/in/user2"
-            imageSrc={members}
+            linkedinLink="https://www.linkedin.com/in/matheus-augusto-290ab8238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            imageSrc={member4}
           />
           <MembersCard
-            name="Nome Completo 2"
+            name="Vinícius de Barros"
             description="Descrição 2"
-            linkedinLink="https://www.linkedin.com/in/user2"
-            imageSrc={members}
+            linkedinLink="https://www.linkedin.com/in/vin%C3%ADcius-de-barros-fernandes-96a8341b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            imageSrc={member5}
           />
         </CardsSection>
       </MembersSection>
