@@ -45,13 +45,13 @@ export const TittleForm = styled.section`
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 2rem;
 
     >div{
       width: 100%;
       display: flex;
-      align-items: center;
+      align-items: start;
       justify-content: space-between;
     }
   }

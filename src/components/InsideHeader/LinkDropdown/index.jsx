@@ -1,4 +1,6 @@
+// linkdropdown.jsx
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Importe o Link do react-router-dom
 import { DropdownContainer, DropdownButton, DropdownList, DropdownItem, ArrowIcon } from './styled';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
@@ -18,8 +20,8 @@ const LinkDropdown = ({ items, firstLinkLabel }) => {
       {isOpen && (
         <DropdownList>
           {items.map((item, index) => (
-            <DropdownItem key={index} href={item.link}>
-              {item.label}
+            <DropdownItem key={index}>
+              <Link to={item.link}>{item.label}</Link>
             </DropdownItem>
           ))}
         </DropdownList>

@@ -77,8 +77,16 @@ export const DropdownItem = styled.a`
   display: block;
   font-size: 1.24rem;
 
-  &:hover {
+  > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+
+  > a:hover {
     background: linear-gradient(90deg, rgba(88, 130, 193, 0.25) 0.08%, rgba(88, 130, 193, 0.00) 99.94%);
     box-shadow: 2px 4px 22px 0px #04060F;
   }
 `;
+
+
