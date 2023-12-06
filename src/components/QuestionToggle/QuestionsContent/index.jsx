@@ -1,5 +1,5 @@
 // QuestionContent.jsx
-import { QuestionContainer } from './styled';
+import { QuestionContainer, UploadContainer, StyledLabel, StyledInput } from './styled';
 
 const QuestionContent = ({ description, children }) => {
 
@@ -9,7 +9,10 @@ const QuestionContent = ({ description, children }) => {
       <div className='contentQuestions'>
         {children}
       </div>
-      <div></div>
+      <UploadContainer>
+        <StyledLabel>Adicionar uma evidência</StyledLabel>
+        <StyledInput type="file" id="evidencia" />
+      </UploadContainer>
     </QuestionContainer>
   );
 };

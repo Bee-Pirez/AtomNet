@@ -13,8 +13,15 @@ export const QuestionContainer = styled.div`
 
   width: 100%;
   
-  padding: 1rem 1rem;
+  padding: 1rem 0;
   gap: 2rem;
+
+  @media (max-width: 784px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+  }
 
   >div{
     
@@ -23,6 +30,16 @@ export const QuestionContainer = styled.div`
   >.contentInput{
     display: flex;
     gap: 2rem;
-    font-size: ${theme.fontBase_p};
+
+    >label{
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+
+      >input{
+        width: 2rem
+      }
+    }
+    
   }
 `;

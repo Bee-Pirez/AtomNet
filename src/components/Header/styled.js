@@ -12,14 +12,17 @@ export const NavList = styled.div`
 export const Container = styled.header`
   position: fixed;
   width: 100%;
-  background: ${(props) => (props.isMobileMenuOpen ? theme.violet : "transparent")};
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   z-index: 3;
   padding: 2rem 3.75rem;
+  background-color: ${(props) =>
+    props.isOpen ? theme.violetLight : props.isScrolled ? theme.violetLight : "transparent"};
+  transition: background-color 0.3s ease;
 
   @media (max-width: 873px) {
     height: ${(props) => (props.isMobileMenuOpen ? "100vh" : "auto")};
   }
+
   nav {
     max-width: 2000px;
     width: 100%;
@@ -29,9 +32,9 @@ export const Container = styled.header`
 export const MenuMobile = styled.div`
   color: white;
   display: none;
-  
-  >a {
-    >img{
+
+  > a {
+    > img {
       display: flex;
       width: 200px;
       max-height: 100%;
@@ -47,11 +50,9 @@ export const MenuMobile = styled.div`
 `;
 
 export const ContainerMobile = styled.div`
-  
-
   ${Container} {
     background-color: ${(props) => (props.isOpen ? theme.violetLight : "transparent")};
-  } 
+  }
 
   ${NavList} {
     display: ${(props) => (props.isOpen ? "flex" : "none")};
@@ -77,20 +78,19 @@ export const ContainerDesktop = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  >a {
+  > a {
     > img {
-    width: 200px;
-    max-height: 100%;
-
-    @media (max-width: 873px) {
-      display: none;
-      width: 100%;
+      width: 200px;
       max-height: 100%;
+
+      @media (max-width: 873px) {
+        display: none;
+        width: 100%;
+        max-height: 100%;
+      }
     }
   }
 
-  }
-  
   ${NavList} {
     display: flex;
 

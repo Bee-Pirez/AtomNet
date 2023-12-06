@@ -10,8 +10,6 @@ export const Container = styled.div`
   background: ${props => props.theme.violetDarker};
   color: white;
   position: relative;
-
-  border: solid 3px green;
   overflow: hidden;
 
 

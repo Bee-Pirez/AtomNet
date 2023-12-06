@@ -333,112 +333,105 @@ export function Questionario2() {
                 <Question id="3_pergunta_22_B" letter="B." question="A opção de aceitar ou reter observa o apetite a risco da empresa? Essa determinação está formalizada na norma de gestão de riscos?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_23_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_23_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.1.3 (b) - Tratamento de riscos da segurança da informação">
+              <QuestionContent description="A organização deve estabelecer e aplicar um processo de tratamento de riscos da segurança da informação para: Determinar todos os controles que são necessários para implementar as opções escolhidas do tratamento de riscos da segurança da informação. ">
+                <Question id="3_pergunta_23_A" letter="A." question="Existe algum processo de avaliação ou determinação de pertinência na escolha dos controles de segurança a serem aplicados para tratar os riscos? "></Question>
+                <Question id="3_pergunta_23_B" letter="B." question="É considerado que efeito o controle terá sobre a probabilidade e o impacto dos riscos? É considerado de que maneira o controle mantém o nível de risco pretendido?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_24_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_24_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.1.3 (c) - Tratamento de riscos da segurança da informação">
+              <QuestionContent description="A organização deve estabelecer e aplicar um processo de tratamento de riscos da segurança da informação para: Comparar os controles determinados em 6.1.3 b) com aqueles do Anexo A e verificar se nenhum controle necessário foi omitido;">
+                <Question id="3_pergunta_24_A" letter="A." question="É feita a verificação de que todos os controles necessários foram considerados, tendo por base o anexo A da ISO?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_25_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_25_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.1.3 (d) - Tratamento de riscos da segurança da informação">
+              <QuestionContent description="A organização deve estabelecer e aplicar um processo de tratamento de riscos da segurança da informação para: Elaborar uma Declaração de Aplicabilidade que contenha: os controles necessários (ver 6.1.3 b) e c)); a justificativa para inclusões; se os controles necessários são implementados ou não; e a justificativa para a exclusão de quaisquer controles do Anexo A.">
+                <Question id="3_pergunta_25_A" letter="A." question="A organização realiza a declaração de aplicabilidade?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_26_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_26_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.1.3 (e) - Tratamento de riscos da segurança da informação">
+              <QuestionContent description="A organização deve estabelecer e aplicar um processo de tratamento de riscos da segurança da informação para: Preparar um plano para tratamento de riscos da segurança da informação;">
+                <Question id="3_pergunta_26_A" letter="A." question="A organização elabora um plano de tratamento dos riscos?"></Question>
+                <Question id="3_pergunta_26_B" letter="B." question="São indicados prazos, medidas, ações, controles e proprietários dos riscos?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_27_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_27_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.1.3 (f) - Tratamento de riscos da segurança da informação">
+              <QuestionContent description="A organização deve estabelecer e aplicar um processo de tratamento de riscos da segurança da informação para: Obter a aprovação dos proprietários dos riscos do plano de tratamento de riscos da segurança da informação e a aceitação dos riscos residuais de segurança da informação.">
+                <Question id="3_pergunta_27_A" letter="A." question="As opções escolhidas para tratamento dos riscos são aprovadas pelos respectivos proprietários?"></Question>
+                <Question id="3_pergunta_27_B" letter="B." question="Os riscos residuais são formalmente aceitos pelos proprietários dos riscos?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_28_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_28_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="x - Tratamento de riscos da segurança da informação">
+              <QuestionContent description="A organização deve reter a informação documentada relativa ao processo de tratamento de riscos da segurança da informação.">
+                <Question id="3_pergunta_28_A" letter="A." question="Todas as documentações são armazenadas e documentadas, demonstrando a recorrência de sua realização e dos ciclos de gestão?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_29_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_29_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.2 (a) - Objetivos da segurança da informação e planejamento para alcançá-los">
+              <QuestionContent description="A organização deve estabelecer os objetivos da segurança da informação para as funções e níveis relevantes. Os objetivos da segurança da informação devem: Ser consistentes com a política da segurança da informação;">
+                <Question id="3_pergunta_29_A" letter="A." question="Os objetivos de segurança estão alinhados com as estratégias e diretrizes de segurança estabelecidos da PSI da organização?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_30_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_30_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.2 (b) - Objetivos da segurança da informação e planejamento para alcançá-los">
+              <QuestionContent description="A organização deve estabelecer os objetivos da segurança da informação para as funções e níveis relevantes. Os objetivos da segurança da informação devem: Ser mensuráveis (quando aplicável);">
+                <Question id="3_pergunta_30_A" letter="A." question="Os objetivos estabelecidos são mensuráveis? Possuem métricas? Alguma forma quantitativa de controle? Ex.: OKRs, KPIs, metas etc."></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_31_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_31_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.2 (c) - Objetivos da segurança da informação e planejamento para alcançá-los">
+              <QuestionContent description="A organização deve estabelecer os objetivos da segurança da informação para as funções e níveis relevantes. Os objetivos da segurança da informação devem: Levar em conta os requisitos da segurança da informação aplicáveis e os resultados da avaliação e tratamento de riscos;">
+                <Question id="3_pergunta_31_A" letter="A." question="Os objetivos de SI levam em consideração os requisitos de segurança aplicáveis a organização (legais, contratuais, regulamentares, fos frameworks como ISO)? "></Question>
+                <Question id="3_pergunta_31_B" letter="B." question="Os objetivos de SI consideram os resultados do processo de gestão de risco da organização?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_32_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_32_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.2 (d) - Objetivos da segurança da informação e planejamento para alcançá-los">
+              <QuestionContent description="A organização deve estabelecer os objetivos da segurança da informação para as funções e níveis relevantes. Os objetivos da segurança da informação devem: Ser monitorados;">
+                <Question id="3_pergunta_32_A" letter="A." question="Os objetivos de SI são monitorados? Como?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_33_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_33_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.2 (e) - Objetivos da segurança da informação e planejamento para alcançá-los">
+              <QuestionContent description="A organização deve estabelecer os objetivos da segurança da informação para as funções e níveis relevantes. Os objetivos da segurança da informação devem: Ser comunicados;">
+                <Question id="3_pergunta_33_A" letter="A." question="Os objetivos de SI são comunicados às partes pertinentes?"></Question>
+                <Question id="3_pergunta_33_B" letter="B." question="A documentação desses objetivos faz parte da documentação que os colaboradores devem tomar ciência no processo de onboarding ou no programa de conscientização da empresa? "></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_34_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_34_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.2 (f) - Objetivos da segurança da informação e planejamento para alcançá-los">
+              <QuestionContent description="A organização deve estabelecer os objetivos da segurança da informação para as funções e níveis relevantes. Os objetivos da segurança da informação devem: Ser atualizados, conforme apropriado;">
+                <Question id="3_pergunta_34_A" letter="A." question="Os objetivos de SI são atualizados, no mínimo anualmente, ou antes, quando for pertinente? Ex.: surgimento de algum novo risco crítico; projeto de migração para a nuvem; mudança nas estratégias de segurança da empresa devido a algum incidente que tenha ocorrido etc."></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_35_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_35_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.2 (g) - Objetivos da segurança da informação e planejamento para alcançá-los">
+              <QuestionContent description="A organização deve estabelecer os objetivos da segurança da informação para as funções e níveis relevantes. Os objetivos da segurança da informação devem: Ser disponibilizados como informação documentada.">
+                <Question id="3_pergunta_35_A" letter="A." question="Os objetivos de SI são formalizados como documentação escrita e disponibilizados às partes interessadas? Ex.: são enviados por e-mail aos colaborados no ciclo anual de conscientização? São enviados ao colaborador quando entra na empresa? Ficam disponíveis na intranet para todos os colaboradores?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_36_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_36_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.2 (h) - Objetivos da segurança da informação e planejamento para alcançá-los">
+              <QuestionContent description="A organização deve reter informação documentada dos objetivos da segurança da informação. Ao planejar como alcançar os seus objetivos da segurança da informação, a organização deve determinar: O que será feito;">
+                <Question id="3_pergunta_36_A" letter="A." question="A documentação dos objetivos de SI apresenta o planejamento para atingir esses objetivos? Ex.: projetos; ações; consientização; quais serviços serão contratados; ferramentas etc."></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_37_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_37_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.2 (i) - Objetivos da segurança da informação e planejamento para alcançá-los">
+              <QuestionContent description="A organização deve reter informação documentada dos objetivos da segurança da informação. Ao planejar como alcançar os seus objetivos da segurança da informação, a organização deve determinar: Quais recursos serão necessários;">
+                <Question id="3_pergunta_37_A" letter="A." question="Os objetivos de SI consideram os recursos necessários (Tanto os recursos financeiros quanto humanos e materiais) para sua concretização? "></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_38_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_38_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.2 (j) - Objetivos da segurança da informação e planejamento para alcançá-los">
+              <QuestionContent description="A organização deve reter informação documentada dos objetivos da segurança da informação. Ao planejar como alcançar os seus objetivos da segurança da informação, a organização deve determinar: Quem será responsável;">
+                <Question id="3_pergunta_38_A" letter="A." question="Os objetivos de SI possuem um responsável determinado por sua implementação e monitoramento?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_39_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_39_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.2 (k) - Objetivos da segurança da informação e planejamento para alcançá-los">
+              <QuestionContent description="A organização deve reter informação documentada dos objetivos da segurança da informação. Ao planejar como alcançar os seus objetivos da segurança da informação, a organização deve determinar: Quando estará concluído;">
+                <Question id="3_pergunta_39_A" letter="A." question="Os objetivos de SI estabelecem prazos de conclusão para serem alcançados?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Segurança da informação no gerenciamento de projetos">
-              <QuestionContent description="A segurança da informação deve ser integrada ao gerenciamento de projetos.">
-                <Question id="3_pergunta_40_A" letter="A." question="Os projetos da organização passam por avaliações de segurança da informação?"></Question>
-                <Question id="3_pergunta_40_B" letter="B." question="Existe um procedimento formal e documentado que aborda a necessidade e o processo para que todos os projetos sejam avaliados em termos de segurança da informação, incluindo a especificação de requisitos de segurança tanto para novos sistemas como para aprimoramentos de sistemas já existentes?"></Question>
+            <QuestionToggle title="6.2 (l) - Objetivos da segurança da informação e planejamento para alcançá-los">
+              <QuestionContent description="A organização deve reter informação documentada dos objetivos da segurança da informação. Ao planejar como alcançar os seus objetivos da segurança da informação, a organização deve determinar: Como os resultados serão avaliados.">
+                <Question id="3_pergunta_40_A" letter="A." question="Os objetivos de SI preveem como o atingimento desses objetivos serão avaliados? Como? "></Question>
+              </QuestionContent>
+            </QuestionToggle>
+            <QuestionToggle title="6.3 - Planejamento de mudanças">
+              <QuestionContent description="Quando a organização determinar as necessidades para as mudanças do sistema de gestão da segurança da informação, estas mudanças devem ser conduzidas de uma forma planejada. ">
+                <Question id="3_pergunta_41_A" letter="A." question="Quando por algum motivo, seja como resultado da análise crítica, seja por alguma mudança de contexto interno ou externo da organização, ocorre a necessidade de realização de mudanças no SGSI, isso é feita de forma planejada? "></Question>
+                <Question id="3_pergunta_41_B" letter="B." question="Há um cronograma, um planejamento forma, plano de ação, designação de responsáveis e ações, prazos etc.?"></Question>
               </QuestionContent>
             </QuestionToggle>
           </QuestionsForm>
@@ -459,148 +452,138 @@ export function Questionario2() {
             </div>
           </TittleForm>
           <QuestionsForm>
-            <QuestionToggle title="Inventário de Informações e outros ativos associados">
-              <QuestionContent description="Um inventário de informações e outros ativos associados, incluindo proprietários, deve ser desenvolvido e mantido.">
-                <Question id="4_pergunta_1_A" letter="A." question="Existe um inventário de informações e outros ativos, com proprietários claramente definidos?"></Question>
-                <Question id="4_pergunta_1_B" letter="B." question="Os proprietários são notificados de suas responsabilidades, e o inventário é atualizado regularmente?"></Question>
+            <QuestionToggle title="7.1 - Recursos">
+              <QuestionContent description="A organização deve determinar e prover recursos necessários para estabelecer, implementar, manter e melhorar continuamente o sistema de gestão da segurança da informação. ">
+                <Question id="4_pergunta_1_A" letter="A." question="A organização determina e provê os recursos necessários para estabelecer, implementar, manter e melhorar continuamente o sistema de gestão da segurança da informação?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Devolução de ativos">
-              <QuestionContent description="O pessoal e outras partes interessadas, conforme apropriado, devem devolver todos os ativos da organização em sua posse após a mudança ou o encerramento da contratação ou acordo.">
-                <Question id="4_pergunta_2_A" letter="A." question="Existe um procedimento formal implementado para garantir que os funcionários e partes interessadas devolvam todos os ativos da organização que estejam em sua posse, em caso de mudança ou encerramento da contratação ou do acordo? "></Question>
+            <QuestionToggle title="7.2 (a) - Competência">
+              <QuestionContent description="A organização deve: Determinar a competência necessária da(s) pessoa(s) que realiza(m) trabalho sob o seu controle que afete o desempenho da segurança da informação;">
+                <Question id="4_pergunta_2_A" letter="A." question="A organização possui alguma matriz de responsabilidades ou outra documentação pertinente em que estejam designadas as responsabilidades das pessoas envolvidas com o bom funcionamento do SGSI?"></Question>
+                <Question id="4_pergunta_2_B" letter="B." question="Essas pessoas são formalmente avisadas e devidamente esclarecidas de quais são suas competências, atribuições, papéis e responsabilidades?"></Question>
+                <Question id="4_pergunta_2_C" letter="C." question="A organização determina a competência necessária das pessoas que realizam trabalhos sob o seu controle que afetem o desempenho da segurança da informação?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Direitos de propriedade intelectual">
-              <QuestionContent description="A organização deve implementar procedimentos apropriados para proteger os direitos de propriedade intelectual.">
-                <Question id="4_pergunta_3_A" letter="A." question="A organização mantém registro de todos os direitos de propriedade intelectual e do uso de produtos de software proprietários? "></Question>
-                <Question id="4_pergunta_3_B" letter="B." question="A organização monitora o uso não licenciado de software? "></Question>
+            <QuestionToggle title="7.2 (b) - Competência">
+              <QuestionContent description="A organização deve: Assegurar que essas pessoas são competentes, com base em educação, treinamento ou experiência apropriados;">
+                <Question id="4_pergunta_3_A" letter="A." question="A organização tem alguma forma de preparação e aprimoramento de competência dessas pessoas mencionadas? São realizados treinamentos específicos com elas? Isso faz parte do planejamento de conscientização da empresa?"></Question>
+                <Question id="4_pergunta_3_B" letter="B." question="Tem algum canal ou meio de contato para tirar dúvidas, levantar questões? Isso faz parte do processo de onboarding dos novos colaboradores?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Mídia de armazenamento">
-              <QuestionContent description="As mídias de armazenamento devem ser gerenciadas por seu ciclo de vida de aquisição, uso, transporte e descarte de acordo com o esquema de classificação e manuseio da organização.">
-                <Question id="4_pergunta_4_A" letter="A." question="Existe uma política e processo de gerenciamento de mídias removíveis em conformidade com a classificação da organização? "></Question>
-                <Question id="4_pergunta_4_B" letter="B." question="Essas políticas e processos são comunicados a todos os funcionários que utilizam mídias removíveis?"></Question>
-                <Question id="4_pergunta_4_C" letter="C." question="Há procedimentos formais para o descarte seguro, proteção durante o transporte, e verificações regulares da eficácia do processo?"></Question>
+            <QuestionToggle title="7.2 (c) - Competência">
+              <QuestionContent description="A organização deve: Onde aplicável, tomar ações para adquirir a competência necessária e avaliar a eficácia das ações tomadas; e">
+                <Question id="4_pergunta_4_A" letter="A." question="São realizadas ações para verificar a eficácia dessa preparação e aprimoramento de competências e absorção desses conhecimentos? São realizados testes, campanhas de phishing, provas, tem algum tipo de gameficação, exigência de certificados?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_5_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_5_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.2 (d) - Competência">
+              <QuestionContent description="A organização deve: Reter informação documentada apropriada como evidência da competência. ">
+                <Question id="4_pergunta_5_A" letter="A." question="A organização retem informação documentada apropriada como evidência da competência (das pessoas que realizam trabalhos sob o seu controle)?"></Question>
+                <Question id="4_pergunta_5_B" letter="B." question="São registradas listas de presença dos treinamentos? Certificações dos colaboradores? São registrados os testes e seus resultados, palestras, treinamentos etc.?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_6_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_6_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.3 (a) - Conscientização">
+              <QuestionContent description="Pessoas que realizam trabalho sob o controle da organização devem estar cientes: Da política da segurança da informação;">
+                <Question id="4_pergunta_6_A" letter="A." question="Os colaboradores da organização estão cientes a respeito da Política de Segurança da Informação? "></Question>
+                <Question id="4_pergunta_6_B" letter="B." question="A PSI é divulgada para os colaboradores? É recolhido algum termo de ciência dos colaboradores? A PSI faz parte do conteúdo do programa de conscientização da empresa?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_7_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_7_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.3 (b) - Conscientização">
+              <QuestionContent description="Pessoas que realizam trabalho sob o controle da organização devem estar cientes: De suas contribuições para a eficácia do sistema de gestão da segurança da informação, incluindo os benefícios da melhoria do desempenho da segurança da informação; e">
+                <Question id="4_pergunta_7_A" letter="A." question="Os colaboradores da organização estão cientes sobre suas contribuições para a eficácia do Sistema de Gestão da Segurança da Informação? "></Question>
+                <Question id="4_pergunta_7_B" letter="B." question="Os colaboradores da organização estão cientes sobre os benefícios da melhoria do desempenho da segurança da informação?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_8_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_8_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.3 (c) - Conscientização">
+              <QuestionContent description="Pessoas que realizam trabalho sob o controle da organização devem estar cientes: Das implicações da não conformidade com os requisitos do sistema de gestão da segurança da informação.">
+                <Question id="4_pergunta_8_A" letter="A." question="Os colaboradores da organização estão cientes das implicações das não conformidades com os requisitos do Sistema de Gestão da Segurança da informação?"></Question>
+                <Question id="4_pergunta_8_B" letter="B." question="Os colaboradores entendem o que são não conformidades e são orientados sobre os impactos de suas ações e comportamentos na segurança da empresa? "></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_9_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_9_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.4 (a) - Comunicação">
+              <QuestionContent description="A organização deve determinar a necessidade de comunicações internas e externas relevantes para o sistema de gestão da segurança da informação, incluindo: O que comunicar;">
+                <Question id="4_pergunta_9_A" letter="A." question="A organização separa o que é necessário comunicar às partes interessadas internas e externas a respeito do SGSI?"></Question>
+                <Question id="4_pergunta_9_B" letter="B." question="A organização determina a necessidade de comunicações internas e externas relevantes para o SGSI, incluindo o conteúdo da comunicação?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_10_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_10_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.4 (b) - Comunicação">
+              <QuestionContent description="A organização deve determinar a necessidade de comunicações internas e externas relevantes para o sistema de gestão da segurança da informação, incluindo: Quando comunicar;">
+                <Question id="4_pergunta_10_A" letter="A." question="Essa determinação de comunicação interna e externa relevantes inclui a informação de quando comunicar (casos ou periodicididade de comunicação)?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_11_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_11_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.4 (c) - Comunicação">
+              <QuestionContent description="A organização deve determinar a necessidade de comunicações internas e externas relevantes para o sistema de gestão da segurança da informação, incluindo: Com quem comunicar;">
+                <Question id="4_pergunta_11_A" letter="A." question="Essa determinação de comunicação interna e externa relevantes inclui a informação sobre com quem comunicar (entidades, orgãos, parceiros e outros a quem se deve fazer a comunicação)?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_12_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_12_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.4 (d) - Comunicação">
+              <QuestionContent description="A organização deve determinar a necessidade de comunicações internas e externas relevantes para o sistema de gestão da segurança da informação, incluindo: Como se comunicar.">
+                <Question id="4_pergunta_12_A" letter="A." question="Essa determinação de comunicação interna e externa relevantes inclui a informação sobre como se comunicar (a forma e procedimento adequados de fazer a comunicação)? O discurso e as informações são adaptadas ao público-alvo?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_13_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_13_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.5.1 (a) - Informação documentada">
+              <QuestionContent description="O sistema de gestão da segurança da informação da organização deve incluir: Informação documentada requerida por este documento; e">
+                <Question id="4_pergunta_13_A" letter="A." question="O SGSI da organização inclui a informação documentada requerida pela norma ISO 27001?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_14_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_14_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.5.1 (b)  - Informação documentada">
+              <QuestionContent description="O sistema de gestão da segurança da informação da organização deve incluir: Informação documentada determinada pela organização como sendo necessária para a eficácia do sistema de gestão da segurança da informação.">
+                <Question id="4_pergunta_14_A" letter="A." question="A organização determina quais são as documentações necessárias para a eficácia do seu SGSI? Isso está incluído no SGSI da empresa? "></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_15_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_15_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.5.2 (a) - Criando e atualizando">
+              <QuestionContent description="Ao criar e atualizar a informação documentada, a organização deve assegurar, de forma apropriada: A identificação e descrição (por exemplo, título, data, autor ou um número de referência);">
+                <Question id="4_pergunta_15_A" letter="A." question="A organização assegura que cria e atualiza a informação documentada atribuindo a devida identificação e descrição adequadas (por exemplo, título, data, autor ou um número de referência)?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_16_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_16_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.5.2 (b) - Criando e atualizando">
+              <QuestionContent description="Ao criar e atualizar a informação documentada, a organização deve assegurar, de forma apropriada: O formato (por exemplo, linguagem, versão do software, gráficos) e seu meio (por exemplo, papel, eletrônico); e">
+                <Question id="4_pergunta_16_A" letter="A." question="A organização assegura que cria e atualiza a informação documentada em formato adequado (por exemplo, linguagem, versão do software, gráficos)? "></Question>
+                <Question id="4_pergunta_16_B" letter="B." question="A organização assegura que cria e atualiza a informação documentada em meio adequado (por exemplo, papel, eletrônico)?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_17_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_17_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.5.2 (c) - Criando e atualizando">
+              <QuestionContent description="Ao criar e atualizar a informação documentada, a organização deve assegurar, de forma apropriada: A análise crítica e aprovação para pertinência e adequação.">
+                <Question id="4_pergunta_17_A" letter="A." question="A organização implementa um processo de análise crítica e aprovação para garantir a pertinência e adequação na criação e atualização da informação documentada?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_18_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_18_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.5.3 (a) - Controle da informação documentada">
+              <QuestionContent description="A informação documentada requerida pelo sistema de gestão da segurança da informação e por este documento deve ser controlada para assegurar que: Esteja disponível e adequada para o uso, onde e quando necessário; e">
+                <Question id="4_pergunta_18_A" letter="A." question="A organização controla a informação documentada para garantir disponibilidade e adequação onde e quando necessário, conforme requerido pelo SGSI e pela ISO?"></Question>
+                <Question id="4_pergunta_18_B" letter="B." question="A documentação interna da empresa está disponível para os colaboradores, em local de fácil acesso, e é conhecida pelos colaboradores e outras partes interessadas?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_19_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_19_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.5.3 (b) - Controle da informação documentada">
+              <QuestionContent description="A informação documentada requerida pelo sistema de gestão da segurança da informação e por este documento deve ser controlada para assegurar que: Esteja protegida adequadamente (por exemplo, contra perda de  confidencialidade, uso indevido ou perda de integridade).">
+                <Question id="4_pergunta_19_A" letter="A." question="A organização aplica controles de segurança adequados para garantir a confidencialidade, integridade e disponibilidade das informações?"></Question>
+                <Question id="4_pergunta_19_B" letter="B." question="A organização controla a informação documentada requerida pelo SGSI e pela ISO para assegurar que ela esteja protegida adequadamente contra perda de confidencialidade, uso indevido ou perda de integridade?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_20_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_20_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.5.3 (c) - Controle da informação documentada">
+              <QuestionContent description="Para o controle da informação documentada, a organização deve considerar as seguintes atividades, conforme aplicável: A Distribuição, acesso, recuperação e uso; NOTA: O acesso implica em uma decisão quanto à permissão para apenas ler a informação documentada, ou na permissão e autoridade para ver e alterar a informação documentada, etc.">
+                <Question id="4_pergunta_20_A" letter="A." question="A organização, ao controlar a informação documentada, considera atividades como distribuição, acesso, recuperação e uso?"></Question>
+                <Question id="4_pergunta_20_B" letter="B." question="No controle, há decisões sobre permissões para ler ou alterar a informação documentada?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_21_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_21_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.5.3 (d) - Controle da informação documentada">
+              <QuestionContent description="Para o controle da informação documentada, a organização deve considerar as seguintes atividades, conforme aplicável: O armazenamento e preservação, incluindo a preservação da legibilidade;">
+                <Question id="4_pergunta_21_A" letter="A." question="A organização considera e avalia as melhores práticas e formas de  armazenamento e preservação da documentação, inclusive quanto à legibilidade? "></Question>
+                <Question id="4_pergunta_21_B" letter="B." question="É considerada a criticidade, classificação e o estado da documentação?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_22_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_22_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.5.3 (e) - Controle da informação documentada">
+              <QuestionContent description="Para o controle da informação documentada, a organização deve considerar as seguintes atividades, conforme aplicável: O controle de mudanças (por exemplo, controle de versão);">
+                <Question id="4_pergunta_22_A" letter="A." question="A organização realiza controle de mudanças da documentação (por exemplo, controle de versão e de alteração)?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_23_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_23_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.5.3 (f) - Controle da informação documentada">
+              <QuestionContent description="Para o controle da informação documentada, a organização deve considerar as seguintes atividades, conforme aplicável: A retenção e disposição.">
+                <Question id="4_pergunta_23_A" letter="A." question="A organização realiza controle de retenção e disposição da documentação?"></Question>
+                <Question id="4_pergunta_23_B" letter="B." question="Há disposições formalizadas acerca da retenção da documentação, contendo prazos, método de armazenamento etc., bem como sobre compartilhamento e divulgação da documentação?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Descarte Seguro ou Reutilização de Equipamentos">
-              <QuestionContent description="Os itens dos equipaments que contenham mídia de armazenamento devem ser verificados para assegurar que quaisquer dados confidenciais e software licenciado tenham sido removidos ou substituídos com segurança antes do descarte ou reutilização.">
-                <Question id="4_pergunta_24_A" letter="A." question="Existe uma política que estabeleça como os ativos de informação podem ser reutilizados, de modo a assegurar que todos os dados sensíveis e softwares licenciados tenham sido removidos ou sobre gravados com segurança? "></Question>
-                <Question id="4_pergunta_24_B" letter="B." question="Existe um procedimento de verificação se as medidas são adequadamente realizadas antes da reutilização ou descarte? "></Question>
+            <QuestionToggle title="7.5.3 (final) - Controle da informação documentada">
+              <QuestionContent description="A informação documentada de origem externa, determinada pela organização como necessária para o planejamento e a operação do sistema de gestão da segurança da informação, deve ser identificada como apropriada e controlada. ">
+                <Question id="4_pergunta_24_A" letter="A." question="Informações de origem externas que sejam necessárias para a organização possuem um processo de internalização, em que sejam devidamente identificadas, classificadas e controladas? "></Question>
               </QuestionContent>
             </QuestionToggle>
           </QuestionsForm>
@@ -621,22 +604,25 @@ export function Questionario2() {
             </div>
           </TittleForm>
           <QuestionsForm>
-            <QuestionToggle title="Classificação das informações">
-              <QuestionContent description="As informações devem ser classificadas de acordo com as necessidades de segurança da informação da organização com base na confidencialidade, integridade, disponibilidade e requisitos das partes interessadas relevantes.">
-                <Question id="5_pergunta_1_A" letter="A." question="Existe uma política de gerenciamento da classificação da informação de acordo com as necessidades de segurança da informação da organização, com base na confidencialidade, integridade, disponibilidade e requisitos das partes interessadas relevantes?"></Question>
-                <Question id="5_pergunta_1_B" letter="B." question="Existe um processo através do qual todas as informações podem ser adequadamente classificadas? "></Question>
+            <QuestionToggle title="8.1 - Planejamento e controle operacionais">
+              <QuestionContent description="A organização deve planejar, implementar e controlar os processos necessários para atender aos requisitos e para implementar as ações determinadas na Seção 6:
+                estabelecendo critérios para os processos; implementando controles dos processos de acordo com os critérios. A informação documentada deve ser disponibilizada na abrangência necessária para gerar a confiança de que os processos estão sendo realizados conforme planejado. A organização deve controlar as mudanças planejadas e analisar criticamente as consequências de mudanças não previstas, tomando ações para mitigar quaisquer efeitos adversos, conforme necessário. A organização deve assegurar que os processos, produtos ou serviços terceirizados que são relevantes para o sistema de gestão da segurança da informação sejam controlados. ">
+                <Question id="5_pergunta_1_A" letter="A." question="Os processos da organização são formalizados, com critérios estabelecidos e controles implementados?"></Question>
+                <Question id="5_pergunta_1_B" letter="B." question="A informação documentada é disponibilizada para as pessoas que precisam dela?"></Question>
+                <Question id="5_pergunta_1_C" letter="C." question="A organização controla mudanças planejadas, analisa as consequências de mudanças não previstas e assegura o controle de processos terceirizados relevantes ao SGSI, incluindo requisitos de segurança para fornecedores e parceiros?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Rotulagem de informações">
-              <QuestionContent description="Um conjunto adequado de procedimentos para rotulagem de informações deve ser desenvolvido e implementado de acordo com o esquema de classificação de informações adotado pela organização.">
-                <Question id="5_pergunta_2_A" letter="A." question="Existe um conjunto formal e apropriado de procedimentos para rotular e tratar a informação que esteja de acordo com o esquema de classificação da informação adotado pela organização?"></Question>
+            <QuestionToggle title="8.2 - Avaliação de riscos da segurança da informação">
+              <QuestionContent description="A organização deve realizar avaliações de riscos da segurança da informação a intervalos planejados, ou quando mudanças significativas forem propostas ou ocorrerem, levando em conta os critérios estabelecidos em 6.1.2 a). A organização deve reter informação documentada dos resultados das avaliações de riscos da segurança da informação. ">
+                <Question id="5_pergunta_2_A" letter="A." question="A organização realiza avaliações de riscos da segurança da informação em intervalos planejados ou quando ocorrem mudanças significativas?"></Question>
+                <Question id="5_pergunta_2_B" letter="B." question="As avaliações de riscos levam em conta os critérios estabelecidos para o processo de avaliação e a organização mantém informação documentada dos resultados dessas avaliações?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Transferência de informações">
-              <QuestionContent description="Regras, procedimentos ou acordos de transferência de informações devem ser implementados para todos os tipos de recursos de transferência dentro da organização e entre a organização e outras partes.">
-                <Question id="5_pergunta_3_A" letter="A." question="Existem regras, procedimentos ou acordos de transferência de informações implementados para todos os tipos de recursos de transferência dentro da organização e entre a organização e partes externas?"></Question>
-                <Question id="5_pergunta_3_B" letter="B." question="Existem controles técnicos relevantes implementados para prevenir formas de transferência de dados não autorizadas? "></Question>
-                <Question id="5_pergunta_3_C" letter="C." question="As políticas de segurança cobrem o uso de transferência da informação durante a utilização de sistemas de mensagens eletrônicas?  "></Question>
+            <QuestionToggle title="8.3 - Tratamento de riscos da segurança da informação">
+              <QuestionContent description="A organização deve implementar o plano de tratamento de riscos da segurança da informação. A organização deve reter informação documentada dos resultados do tratamento de riscos da segurança da informação. ">
+                <Question id="5_pergunta_3_A" letter="A." question="A organização possui um plano de tratamento de riscos de SI?"></Question>
+                <Question id="5_pergunta_3_B" letter="B." question="O plano de tratamento de riscos está implementado?"></Question>
+                <Question id="5_pergunta_3_C" letter="C." question="A organização documenta e retém os resultados do tratamento de riscos de SI?"></Question>
               </QuestionContent>
             </QuestionToggle>
           </QuestionsForm>
@@ -657,151 +643,152 @@ export function Questionario2() {
             </div>
           </TittleForm>
           <QuestionsForm>
-            <QuestionToggle title="Controle de acesso">
-              <QuestionContent description="Regras para controlar o acesso físico e lógico às informações e outros ativos associados devem ser estabelecidas e implementadas com base nos requisitos de segurança da informação e de negócios.">
-                <Question id="6_pergunta_1_A" letter="A." question="Existe uma política documentada e estabelecida sobre controle de acesso físico e lógico às informações e a outros ativos associados, com base nos requisitos de segurança da informação e de negócios? A política de controle de acesso é apropriadamente comunicada a todos? "></Question>
-                <Question id="6_pergunta_1_B" letter="B." question="Existem controles formais documentados e implementados para garantir que apenas os usuários que tenham sido especificamente autorizados recebam acesso às redes e aos serviços de rede, quando isto for necessário ao desempenho de suas funções? "></Question>
+            <QuestionToggle title="9.1 (a) - Monitoramento, medição, análise e avaliação">
+              <QuestionContent description="A organização deve determinar: O que precisa ser monitorado e medido, incluindo controles e processos da segurança da informação;">
+                <Question id="6_pergunta_1_A" letter="A." question="A organização determina o que precisa ser monitorado e medido?"></Question>
+                <Question id="6_pergunta_1_B" letter="B." question="A determinação sobre o que precisa ser monitorado e medido inclui controles e processos da segurança da informação?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de identidade">
-              <QuestionContent description="O ciclo de vida completo das identidades deve ser gerenciado.">
-                <Question id="6_pergunta_2_A" letter="A." question="Existe um processo de gestão de identidades de acesso que inclui identificação única dos usuários, fornecimento e revogação de acesso, e como esses processos são executados?"></Question>
-                <Question id="6_pergunta_2_B" letter="B." question="Esse processo de gestão de identidade está documentado em uma política, e essa política é revisada periodicamente ou em caso de mudanças significativas no processo?"></Question>
+            <QuestionToggle title="9.1 (b) - Monitoramento, medição, análise e avaliação">
+              <QuestionContent description="A organização deve determinar: Os métodos para monitoramento, medição, análise e avaliação, conforme aplicável, para assegurar resultados válidos. Convém que os métodos selecionados produzam resultados comparáveis e reproduzíveis a serem considerados válidos;">
+                <Question id="6_pergunta_2_A" letter="A." question="A organização determina os métodos para monitoramento, medição, análise e avaliação, conforme aplicável, para assegurar resultados válidos?"></Question>
+                <Question id="6_pergunta_2_B" letter="B." question="Os métodos selecionados produzem resultados comparáveis e reproduzíveis?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Informações de autenticação">
-              <QuestionContent description="A alocação e o gestão de informações de autenticação devem ser controladas por uma gestão de processo, incluindo o aconselhar o pessoal sobre o manuseio adequado de informações de autenticação.">
-                <Question id="6_pergunta_3_A" letter="A." question="Existe um processo de gerenciamento formal implementado para controlar a concessão de informação de autenticação secreta? "></Question>
-                <Question id="6_pergunta_3_B" letter="B." question="Existe uma política documentada e devidamente comunicada a respeito das práticas da organização quanto ao uso e tratamento das informações de autenticação secretas? "></Question>
-                <Question id="6_pergunta_3_C" letter="C." question="Os sistemas para gerenciamento de senha são interativos? Senhas complexas/de qualidade são requeridas? "></Question>
+            <QuestionToggle title="9.1 (c) - Monitoramento, medição, análise e avaliação">
+              <QuestionContent description="A organização deve determinar: Quando o monitoramento e a medição devem ser realizados;">
+                <Question id="6_pergunta_3_A" letter="A." question="A organização determina quando o monitoramento e a medição devem ser realizados?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Direitos de acesso">
-              <QuestionContent description="Os direitos de acesso a informações e outros ativos associados devem ser provisionados, analisados criticamente, modificados e removidos de acordo com a política de tema específico e com as regras da organização para controle de acesso.">
-                <Question id="6_pergunta_4_A" letter="A." question="Existe um processo formal de provisionamento de acesso de usuário que abrange todos os tipos de usuários e sistemas?"></Question>
-                <Question id="6_pergunta_4_B" letter="B." question="Existe um procedimento para que os proprietários de ativos revejam periodicamente os direitos de acesso dos usuários, e a organização verifica a realização desse procedimento? "></Question>
-                <Question id="6_pergunta_4_C" letter="C." question="Há um procedimento formal para retirar ou ajustar os direitos de acesso quando as atividades, contratos ou acordos se encerram ou mudam?"></Question>
+            <QuestionToggle title="9,1 (d) - Monitoramento, medição, análise e avaliação">
+              <QuestionContent description="A organização deve determinar: Quem deve monitorar e medir;">
+                <Question id="6_pergunta_4_A" letter="A." question="A organização determina quem deve monitorar e medir?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Ativos | Dispositivos de endpoint do usuário">
-              <QuestionContent description="As informações armazenadas, tratados ou acessíveis por meio de dispositivos endpoint do usuário devem ser protegidas.">
-                <Question id="6_pergunta_5_A" letter="A." question="Existe uma política de uso de dispositivos móveis documentada e aprovada pela direção?"></Question>
-                <Question id="6_pergunta_5_B" letter="B." question="A política aborda os riscos adicionais associados ao uso de dispositivos móveis e inclui diretrizes para proteção de equipamentos não monitorados? "></Question>
+            <QuestionToggle title="9.1 (e) - Monitoramento, medição, análise e avaliação">
+              <QuestionContent description="A organização deve determinar: Quando os resultados do monitoramento e da medição devem ser analisados e avaliados;">
+                <Question id="6_pergunta_5_A" letter="A." question="A organização determina quando os resultados do monitoramento e da medição devem ser analisados e avaliados?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Direitos de acesso privilegiado">
-              <QuestionContent description="A atribuição e o uso de direitos de acesso privilegiado devem ser restritos e gerenciados.">
-                <Question id="6_pergunta_6_A" letter="A." question="Como as contas de acesso privilegiado são geridas e controladas separadamente? "></Question>
+            <QuestionToggle title="9.1 (f) - Monitoramento, medição, análise e avaliação">
+              <QuestionContent description="A organização deve determinar: Quem deve analisar e avaliar estes resultados.">
+                <Question id="6_pergunta_6_A" letter="A." question="A organização determina quem deve analisar e avaliar estes resultados?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Restrição de acesso à informação">
-              <QuestionContent description="O acesso às informações e outros ativos associados deve ser restrito de acordo com a política específica por tema sobre controle de acesso.">
-                <Question id="6_pergunta_7_A" letter="A." question="O acesso à informação e às funções dos sistemas de aplicações são restritos de acordo com a política de controle de acesso? "></Question>
+            <QuestionToggle title="9.1 (final) - Monitoramento, medição, análise e avaliação">
+              <QuestionContent description="Informação documentada deve ser disponibilizada como evidência dos resultados. A organização deve avaliar o desempenho da segurança da informação e a eficácia do sistema de gestão da segurança da informação ">
+                <Question id="6_pergunta_7_A" letter="A." question="As ações de monitoramento, medição, análise e avaliação são registadas e documentadas? Elas são armazenadas de maneira a evidenciar os resultados e formar uma trilha de auditoria?"></Question>
+                <Question id="6_pergunta_7_B" letter="B." question="A organização avalia o desempenho da SI e a eficácia do SGSI periodicamente? Essa avaliação é registrada e formalizada?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Acesso ao código-fonte">
-              <QuestionContent description="O acesso de leitura e escrita ao código-fonte, ferramentas de desenvolvimento e bibliotecas de software deve ser adequadamente gerenciados.">
-                <Question id="6_pergunta_8_A" letter="A." question="Por quais meios o acesso ao código-fonte de programas, incluindo o do Sistema de Controle de Acesso, é protegido e gerenciado? "></Question>
+            <QuestionToggle title="9.2.1 (a) - Auditoria interna">
+              <QuestionContent description="A organização deve conduzir auditorias internas a intervalos planejados para prover informações sobre se o sistema de gestão da segurança da informação: está em conformidade com:">
+                <Question id="6_pergunta_8_A" letter="A." question="A organização realiza avaliações de riscos da segurança da informação em intervalos planejados ou quando ocorrem mudanças significativas?"></Question>
+                <Question id="6_pergunta_8_B" letter="B." question="As avaliações de riscos levam em conta os critérios estabelecidos para o processo de avaliação, e a organização mantém informação documentada dos resultados dessas avaliações?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Autenticação Segura">
-              <QuestionContent description="Tecnologias e procedimentos de autenticação seguros devem ser implementados com base em restrições de acesso à informação e à política específica por tema de controle de acesso.">
-                <Question id="6_pergunta_9_A" letter="A." question="Nos casos em que for requerido pela Política de Controle de Acesso, o acesso aos sistemas e aplicações é controlado por um procedimento seguro de entrada no sistema (log-on)? "></Question>
+            <QuestionToggle title="9.2.1 (a.1) - Auditoria interna">
+              <QuestionContent description="A organização deve conduzir auditorias internas a intervalos planejados para prover informações sobre se o sistema de gestão da segurança da informação: está em conformidade com: Os próprios requisitos da organização para o seu sistema de gestão da segurança da informação;">
+                <Question id="6_pergunta_9_A" letter="A." question="Existe um procedimento formalizado para planejar e conduzir auditorias internas do SGSI que considere os requisitos eleitos pela organização? Isso é feito em intervalos regulares? "></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.2.1 (a.2) - Auditoria interna">
+              <QuestionContent description="A organização deve conduzir auditorias internas a intervalos planejados para prover informações sobre se o sistema de gestão da segurança da informação: está em conformidade com: Os requisitos deste documento;">
+                <Question id="6_pergunta_10_A" letter="A." question="Existe um procedimento formalizado para planejar e conduzir auditorias internas do SGSI que considere os requisitos da ISO27001? Isso é feito em intervalos regulares? "></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.2.1 (b) - Auditoria interna">
+              <QuestionContent description="A organização deve conduzir auditorias internas a intervalos planejados para prover informações sobre se o sistema de gestão da segurança da informação: Está efetivamente implementado e mantido.">
+                <Question id="6_pergunta_11_A" letter="A." question="As auditorias internas planejadas estão ocorrendo na forma e na periodicidade determinadas?"></Question>
+                <Question id="6_pergunta_11_B" letter="B." question="A organização mantém efetivamente implementado e mantido a condução de auditorias internas em intervalos planejados para promover informações do SGSI?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.2.2 (a) - Programa de auditoria interna">
+              <QuestionContent description="A organização deve planejar, estabelecer, implementar e manter programa(s) de auditoria, incluindo frequência, métodos, responsabilidades, requisitos de planejamento e relato. Ao estabelecer programa(s) de auditoria interna, a organização deve considerar a importância dos processos pertinentes e os resultados de auditorias anteriores. A organização deve: Definir os critérios e o escopo da auditoria, para cada auditoria;">
+                <Question id="6_pergunta_12_A" letter="A." question="Existe um procedimento para planejar e conduzir auditorias internas do SGSI?"></Question>
+                <Question id="6_pergunta_12_B" letter="B." question="São definidos critérios e escopos de auditoria, considerando a criticidade dos processos de negócio e resultados de auditorias anteriores?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.2.2 (b) - Programa de auditoria interna">
+              <QuestionContent description="A organização deve planejar, estabelecer, implementar e manter programa(s) de auditoria, incluindo frequência, métodos, responsabilidades, requisitos de planejamento e relato. Ao estabelecer programa(s) de auditoria interna, a organização deve considerar a importância dos processos pertinentes e os resultados de auditorias anteriores. A organização deve: Selecionar auditores e conduzir auditorias que assegurem objetividade e imparcialidade do processo de auditoria;">
+                <Question id="6_pergunta_13_A" letter="A." question="A organização especifica formalmente os critérios para que os auditores (sejam internos ou terceirizados) possam atuar em suas auditorias internas?"></Question>
+                <Question id="6_pergunta_13_B" letter="B." question="Os auditores são selecionados de acordo com esses processos?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.2.2 (c) - Programa de auditoria interna">
+              <QuestionContent description="A organização deve planejar, estabelecer, implementar e manter programa(s) de auditoria, incluindo frequência, métodos, responsabilidades, requisitos de planejamento e relato. Ao estabelecer programa(s) de auditoria interna, a organização deve considerar a importância dos processos pertinentes e os resultados de auditorias anteriores. A organização deve: Assegurar que os resultados das auditorias sejam relatados para a gestão pertinente.">
+                <Question id="6_pergunta_14_A" letter="A." question="Os resultados das auditorias internas são relatados para a gestão?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="x - Programa de auditoria interna">
+              <QuestionContent description="Informação documentada deve ser disponibilizada como evidência da implementação do(s) programa(s) de auditoria e dos resultados da auditoria.">
+                <Question id="6_pergunta_15_A" letter="A." question="A informação documentada é disponibilizada como evidência da implementação do programa de auditoria e dos resultados da auditoria?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.1 - Análise crítica pela Direção">
+              <QuestionContent description="A Alta Direção deve analisar criticamente o sistema de gestão da segurança da informação da organização em intervalos planejados, para assegurar a sua contínua adequação, pertinência e eficácia. ">
+                <Question id="6_pergunta_16_A" letter="A." question="A PSI prevê a necessidade de a Alta Direção realizar análise crítica do SGSI, com periodicidade determinada?"></Question>
+                <Question id="6_pergunta_16_B" letter="B." question="A análise crítica aborda os tópicos das alíneas para verificar a adequação, pertinência e eficácia do SGSI em relação aos objetivos e estratégias de segurança da organização?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.2 (a) - Entradas da análise crítica pela Direção">
+              <QuestionContent description="A análise crítica pela Direção deve incluir considerações em relação a: Situação das ações de análises críticas anteriores pela Direção;">
+                <Question id="6_pergunta_17_A" letter="A." question="Os resultados das análises críticas anteriores são comparados? Qualitativa e quantitativamente?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.2 (b) - Entradas da análise crítica pela Direção">
+              <QuestionContent description="A análise crítica pela Direção deve incluir considerações em relação a: Mudanças nas questões internas e externas que sejam relevantes para o sistema de gestão da segurança da informação;">
+                <Question id="6_pergunta_18_A" letter="A." question="Mudanças relevantes ao SGSI são levantadas, registradas e consideradas nas análises críticas? Como?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.2 (c) - Entradas da análise crítica pela Direção">
+              <QuestionContent description="A análise crítica pela Direção deve incluir considerações em relação a: Mudanças nas necessidades e expectativas das partes interessadas que sejam relevantes para o sistema de gestão da segurança da informação">
+                <Question id="6_pergunta_19_A" letter="A." question="A análise crítica pela Direção inclui considerações em relação a mudanças nas necessidades e expectativas das partes interessadas, que sejam relevantes para o sistema de gestão da segurança da informação?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.2 (d) - Entradas da análise crítica pela Direção">
+              <QuestionContent description="A análise crítica pela Direção deve incluir considerações em relação a: Feedback sobre o desempenho da segurança da informação, incluindo tendências para:">
+                <Question id="6_pergunta_20_A" letter="A." question="A análise crítica pela Direção deve considera o feedback sobre o desempenho da segurança da informação e as tendências associadas?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.2 (d.1) - Entradas da análise crítica pela Direção">
+              <QuestionContent description="A análise crítica pela Direção deve incluir considerações em relação a: Feedback sobre o desempenho da segurança da informação, incluindo tendências para: Não conformidades e ações corretivas;">
+                <Question id="6_pergunta_21_A" letter="A." question="A análise crítica pela Direção considera as não conformidades e ações corretivas relacionadas ao sistema de gestão da segurança da informação?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.2 (d.2) - Entradas da análise crítica pela Direção">
+              <QuestionContent description="A análise crítica pela Direção deve incluir considerações em relação a: Feedback sobre o desempenho da segurança da informação, incluindo tendências para:Resultados da medição e monitoramento;">
+                <Question id="6_pergunta_22_A" letter="A." question="A análise crítica pela Direção aborda os resultados da medição e monitoramento relacionados ao sistema de gestão da segurança da informação?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.2 (d.3) - Entradas da análise crítica pela Direção">
+              <QuestionContent description="A análise crítica pela Direção deve incluir considerações em relação a: Feedback sobre o desempenho da segurança da informação, incluindo tendências para: Resultados de auditorias;">
+                <Question id="6_pergunta_23_A" letter="A." question="A análise crítica pela Direção abrange os resultados de auditorias relacionados ao sistema de gestão da segurança da informação?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.2 (d.4) - Entradas da análise crítica pela Direção">
+              <QuestionContent description="A análise crítica pela Direção deve incluir considerações em relação a: Feedback sobre o desempenho da segurança da informação, incluindo tendências para: Cumprimento dos objetivos da segurança da informação;">
+                <Question id="6_pergunta_24_A" letter="A." question="A análise crítica pela Direção abrange o cumprimento dos objetivos da segurança da informação?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.2 (e) - Entradas da análise crítica pela Direção">
+              <QuestionContent description="A análise crítica pela Direção deve incluir considerações em relação a: Feedback das partes interessadas;">
+                <Question id="6_pergunta_25_A" letter="A." question="A análise crítica pela Direção abrange o feedback das partes interessadas?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.2 (f) - Entradas da análise crítica pela Direção">
+              <QuestionContent description="A análise crítica pela Direção deve incluir considerações em relação a: Resultados da avaliação dos riscos e situação do plano de tratamento de riscos;">
+                <Question id="6_pergunta_26_A" letter="A." question="A análise crítica pela Direção abrange os resultados da avaliação dos riscos e a situação do plano de tratamento de riscos?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.2 (g) - Entradas da análise crítica pela Direção">
+              <QuestionContent description="A análise crítica pela Direção deve incluir considerações em relação a: Oportunidades para a melhoria contínua.">
+                <Question id="6_pergunta_27_A" letter="A." question="A análise crítica pela Direção abrange oportunidades para a melhoria contínua?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Controle de Acesso | Filtragem da Web">
-              <QuestionContent description="O acesso a sites externos deve ser gerenciado para reduzir a exposição a conteúdo malicioso.">
-                <Question id="6_pergunta_10_A" letter="A." question="O gerenciamento de acesso a sites externos é realizado? "></Question>
+            <QuestionToggle title="9.3.3 - Resultados da análise crítica pela Direção">
+              <QuestionContent description="Os resultados da análise crítica pela Direção devem incluir decisões relativas às oportunidades para melhoria contínua e quaisquer necessidades de mudanças do sistema de gestão da segurança da informação. Informação documentada deve ser disponibilizada como evidência dos resultados das análises críticas pela Direção.">
+                <Question id="6_pergunta_28_A" letter="A." question="A Alta Direção considera os resultados da análise crítica na sua tomada de decisões? Ex.: redefinição dos objetivos de SI; aprovação de orçamento; contratação de novos serviços; mudança no escopo de auditoria etc. "></Question>
               </QuestionContent>
             </QuestionToggle>
           </QuestionsForm>
@@ -822,81 +809,78 @@ export function Questionario2() {
             </div>
           </TittleForm>
           <QuestionsForm>
-            <QuestionToggle title="Segurança da informação nas relações com fornecedores">
-              <QuestionContent description="Os processos e procedimentos devem ser definidos e implementados para gerenciar a segurança da informação e os riscos associados com uso dos produtos ou serviços dos fornecedores.">
-                <Question id="7_pergunta_1_A" letter="A." question="A segurança da informação está incluída nos contratos estabelecidos com fornecedores e prestadores de serviço, de maneira a mitigar os riscos associados decorrentes do acesso daqueles aos ativos da organização? "></Question>
-                <Question id="7_pergunta_1_B" letter="B." question="Existe uma gestão de risco em toda a organização para a relação com os fornecedores?"></Question>
+            <QuestionToggle title="10.1 - Melhoria Contínua">
+              <QuestionContent description="A organização deve melhorar continuamente a pertinência, a adequação e a eficácia do sistema de gestão da segurança da informação. ">
+                <Question id="7_pergunta_1_A" letter="A." question="A PSI prevê a necessidade de melhoria contínua do SGSI e estabelece as responsabilidades para isso?"></Question>
+                <Question id="7_pergunta_1_B" letter="B." question="A organização planeja, executa, registra, verifica e atua em relação à melhoria contínua do SGSI, incluindo o estabelecimento de metas, métricas e ações corretivas ou preventivas?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de Fornecedores | Abordagem da segurança da informação nos contratos com fornecedores">
-              <QuestionContent description="Requisitos relevantes de segurança da informação devem ser estabelecidos e acordados com cada fornecedor com base no tipo de relacionamento com o fornecedor.">
-                <Question id="7_pergunta_2_A" letter="A." question="Existem requisitos de segurança da informação acordados com os fornecedores?  Esses requisitos são adequadamente documentados?"></Question>
-                <Question id="7_pergunta_2_A" letter="B." question="O acesso dos fornecedores a ativos de informação e infraestrutura de TI é controlado e monitorado?  "></Question>
+            <QuestionToggle title="10.2 (a) - Não conformidade e ação corretiva">
+              <QuestionContent description="Quando uma não conformidade ocorre, a organização deve: Reagir à não conformidade e, conforme apropriado:">
+                <Question id="7_pergunta_2_A" letter="A." question="A organização executa práticas para descoberta de não conformidades, como auditorias internas, auditorias externas, relatórios de GV ou pentests?"></Question>
+                <Question id="7_pergunta_2_A" letter="B." question="Existe um planejamento e procedimento documentado para reagir às não conformidades, incluindo a definição de responsáveis, SLAs, prazos de verificação e planos de ação de acordo com a criticidade das não conformidades?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de Fornecedores | Gestão da segurança da informação na  cadeia de fornecimento de TIC">
-              <QuestionContent description="Os processos e procedimentos devem ser definidos e implementados para gerenciar os riscos de segurança da informação associados à cadeia de fornecimento de produtos e serviços de TIC.">
-                <Question id="7_pergunta_3_A" letter="A." question="Os acordos com fornecedores incluem requisitos para contemplar a segurança da informação ao longo de toda a cadeia de fornecimento de serviços e produtos de tecnologia da informação e comunicação?"></Question>
+            <QuestionToggle title="10.2 (a.1) - Não conformidade e ação corretiva">
+              <QuestionContent description="Quando uma não conformidade ocorre, a organização deve: Reagir à não conformidade e, conforme apropriado: Tomar ações para controlá-la e corrigi-la;">
+                <Question id="7_pergunta_3_A" letter="A." question="A organização tem um processo definido para controlar e corrigir não conformidades quando elas ocorrem?"></Question>
+                <Question id="Existe um planejamento que define como reagir às não conformidades encontradas, incluindo responsáveis, SLAs, prazos de verificação, com base na criticidade?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de Fornecedores  | Monitoramento, análise crítica e gestão de mudanças dos serviços de fornecedores">
-              <QuestionContent description="A organização deve monitorar, analisar criticamente, avaliar e gerenciar regularmente a mudança nas práticas de segurança da informação dos fornecedores e na prestação de serviços.">
-                <Question id="7_pergunta_4_A" letter="A." question="Os fornecedores estão sujeitos a monitoramento, análise crítica e e auditorias em intervalos regulares de tempo?"></Question>
-                <Question id="7_pergunta_4_A" letter="B." question="As mudanças na prestação de serviços estão sujeitas a um procedimento de gestão que inclui avaliação de segurança e risco?   "></Question>
+            <QuestionToggle title="10.2 (a.2) - Não conformidade e ação corretiva">
+              <QuestionContent description="Quando uma não conformidade ocorre, a organização deve: Reagir à não conformidade e, conforme apropriado: Lidar com as consequências;">
+                <Question id="7_pergunta_4_A" letter="A." question="Como a organização lida com as consequências? Há um processo ou fluxo definido?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de Fornecedores  | Monitoramento, análise crítica e gestão de mudanças dos serviços de fornecedores">
-              <QuestionContent description="A organização deve monitorar, analisar criticamente, avaliar e gerenciar regularmente a mudança nas práticas de segurança da informação dos fornecedores e na prestação de serviços.">
-                <Question id="7_pergunta_4_A" letter="A." question="Os fornecedores estão sujeitos a monitoramento, análise crítica e e auditorias em intervalos regulares de tempo?"></Question>
-                <Question id="7_pergunta_4_A" letter="B." question="As mudanças na prestação de serviços estão sujeitas a um procedimento de gestão que inclui avaliação de segurança e risco?   "></Question>
+            <QuestionToggle title="10.2 (b) - Não conformidade e ação corretiva">
+              <QuestionContent description="Quando uma não conformidade ocorre, a organização deve: Avaliar a necessidade de ações para eliminar as causas de não conformidade, para evitar sua repetição ou ocorrência em outro lugar, por um dos seguintes meios:">
+                <Question id="7_pergunta_5_A" letter="A." question="A organização investiga e registra as análises de causa raiz das não conformidades?"></Question>
+                <Question id="7_pergunta_5_A" letter="B." question="São estabelecidos planos de ação considerando a causa raiz dos problemas e desenvolvidas lições aprendidas a partir dessas investigações?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de Fornecedores  | Monitoramento, análise crítica e gestão de mudanças dos serviços de fornecedores">
-              <QuestionContent description="A organização deve monitorar, analisar criticamente, avaliar e gerenciar regularmente a mudança nas práticas de segurança da informação dos fornecedores e na prestação de serviços.">
-                <Question id="7_pergunta_4_A" letter="A." question="Os fornecedores estão sujeitos a monitoramento, análise crítica e e auditorias em intervalos regulares de tempo?"></Question>
-                <Question id="7_pergunta_4_A" letter="B." question="As mudanças na prestação de serviços estão sujeitas a um procedimento de gestão que inclui avaliação de segurança e risco?   "></Question>
+            <QuestionToggle title="10.2 (b.1) - Não conformidade e ação corretiva">
+              <QuestionContent description="Quando uma não conformidade ocorre, a organização deve: Avaliar a necessidade de ações para eliminar as causas de não conformidade, para evitar sua repetição ou ocorrência em outro lugar, por um dos seguintes meios: Analisando criticamente a não conformidade;">
+                <Question id="7_pergunta_6_A" letter="A." question="A organização analisa criticamente a não conformidade?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de Fornecedores  | Monitoramento, análise crítica e gestão de mudanças dos serviços de fornecedores">
-              <QuestionContent description="A organização deve monitorar, analisar criticamente, avaliar e gerenciar regularmente a mudança nas práticas de segurança da informação dos fornecedores e na prestação de serviços.">
-                <Question id="7_pergunta_4_A" letter="A." question="Os fornecedores estão sujeitos a monitoramento, análise crítica e e auditorias em intervalos regulares de tempo?"></Question>
-                <Question id="7_pergunta_4_A" letter="B." question="As mudanças na prestação de serviços estão sujeitas a um procedimento de gestão que inclui avaliação de segurança e risco?   "></Question>
+            <QuestionToggle title="10.2 (b.2) - Não conformidade e ação corretiva">
+              <QuestionContent description="Quando uma não conformidade ocorre, a organização deve: Avaliar a necessidade de ações para eliminar as causas de não conformidade, para evitar sua repetição ou ocorrência em outro lugar, por um dos seguintes meios: Determinando as causas da não conformidade; e">
+                <Question id="7_pergunta_7_A" letter="A." question="A organização detemrina as causas da não conformidade?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de Fornecedores  | Monitoramento, análise crítica e gestão de mudanças dos serviços de fornecedores">
-              <QuestionContent description="A organização deve monitorar, analisar criticamente, avaliar e gerenciar regularmente a mudança nas práticas de segurança da informação dos fornecedores e na prestação de serviços.">
-                <Question id="7_pergunta_4_A" letter="A." question="Os fornecedores estão sujeitos a monitoramento, análise crítica e e auditorias em intervalos regulares de tempo?"></Question>
-                <Question id="7_pergunta_4_A" letter="B." question="As mudanças na prestação de serviços estão sujeitas a um procedimento de gestão que inclui avaliação de segurança e risco?   "></Question>
+            <QuestionToggle title="10.2 (b.3) - Não conformidade e ação corretiva">
+              <QuestionContent description="Quando uma não conformidade ocorre, a organização deve: Avaliar a necessidade de ações para eliminar as causas de não conformidade, para evitar sua repetição ou ocorrência em outro lugar, por um dos seguintes meios: Determinando se não conformidades similares existem, ou se podem potencialmente ocorrer;">
+                <Question id="7_pergunta_8_A" letter="A." question="Há um processo estabelecido para determinar se existe não conformidades similares, ou se podem potencialmente ocorrer em alguma instancia?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de Fornecedores  | Monitoramento, análise crítica e gestão de mudanças dos serviços de fornecedores">
-              <QuestionContent description="A organização deve monitorar, analisar criticamente, avaliar e gerenciar regularmente a mudança nas práticas de segurança da informação dos fornecedores e na prestação de serviços.">
-                <Question id="7_pergunta_4_A" letter="A." question="Os fornecedores estão sujeitos a monitoramento, análise crítica e e auditorias em intervalos regulares de tempo?"></Question>
-                <Question id="7_pergunta_4_A" letter="B." question="As mudanças na prestação de serviços estão sujeitas a um procedimento de gestão que inclui avaliação de segurança e risco?   "></Question>
+            <QuestionToggle title="10.2 (c) - Não conformidade e ação corretiva">
+              <QuestionContent description="Quando uma não conformidade ocorre, a organização deve: Implementar quaisquer ações necessárias;">
+                <Question id="7_pergunta_9_A" letter="A." question="A organização traça planos de ação que sejam mensuráveis e comparáveis?"></Question>
+                <Question id="7_pergunta_9_A" letter="B." question="São definidos prazos e responsabilidades para verificar a implementação dos planos de ação, incluindo ações para mitigar as não conformidades identificadas?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de Fornecedores  | Monitoramento, análise crítica e gestão de mudanças dos serviços de fornecedores">
-              <QuestionContent description="A organização deve monitorar, analisar criticamente, avaliar e gerenciar regularmente a mudança nas práticas de segurança da informação dos fornecedores e na prestação de serviços.">
-                <Question id="7_pergunta_4_A" letter="A." question="Os fornecedores estão sujeitos a monitoramento, análise crítica e e auditorias em intervalos regulares de tempo?"></Question>
-                <Question id="7_pergunta_4_A" letter="B." question="As mudanças na prestação de serviços estão sujeitas a um procedimento de gestão que inclui avaliação de segurança e risco?   "></Question>
+            <QuestionToggle title="10.2 (d) - Não conformidade e ação corretiva">
+              <QuestionContent description="Quando uma não conformidade ocorre, a organização deve: Analisar criticamente a eficácia de quaisquer ações corretivas tomadas; e">
+                <Question id="7_pergunta_10_A" letter="A." question="A organização analisa criticamente a eficácia de quaisquer ações corretivas tomadas? Como?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de Fornecedores  | Monitoramento, análise crítica e gestão de mudanças dos serviços de fornecedores">
-              <QuestionContent description="A organização deve monitorar, analisar criticamente, avaliar e gerenciar regularmente a mudança nas práticas de segurança da informação dos fornecedores e na prestação de serviços.">
-                <Question id="7_pergunta_4_A" letter="A." question="Os fornecedores estão sujeitos a monitoramento, análise crítica e e auditorias em intervalos regulares de tempo?"></Question>
-                <Question id="7_pergunta_4_A" letter="B." question="As mudanças na prestação de serviços estão sujeitas a um procedimento de gestão que inclui avaliação de segurança e risco?   "></Question>
+            <QuestionToggle title="10.2 (e) - Não conformidade e ação corretiva">
+              <QuestionContent description="Quando uma não conformidade ocorre, a organização deve: Realizar mudanças no sistema de gestão da segurança da informação, quando necessário.">
+                <Question id="7_pergunta_11_A" letter="A." question="Os resultados das análises de melhoria contínua são considerados na atualização do SGSI?"></Question>
+                <Question id="7_pergunta_11_A" letter="B." question="A organização realiza mudanças no SGSI se necessário?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de Fornecedores  | Monitoramento, análise crítica e gestão de mudanças dos serviços de fornecedores">
-              <QuestionContent description="A organização deve monitorar, analisar criticamente, avaliar e gerenciar regularmente a mudança nas práticas de segurança da informação dos fornecedores e na prestação de serviços.">
-                <Question id="7_pergunta_4_A" letter="A." question="Os fornecedores estão sujeitos a monitoramento, análise crítica e e auditorias em intervalos regulares de tempo?"></Question>
-                <Question id="7_pergunta_4_A" letter="B." question="As mudanças na prestação de serviços estão sujeitas a um procedimento de gestão que inclui avaliação de segurança e risco?   "></Question>
+            <QuestionToggle title="10.2 (f) - Não conformidade e ação corretiva">
+              <QuestionContent description="Quando uma não conformidade ocorre, a organização deve: Natureza das não conformidades e quaisquer ações subsequentes tomadas; e">
+                <Question id="7_pergunta_12_A" letter="A." question="As não conformidades são classificadas?"></Question>
+                <Question id="7_pergunta_12_A" letter="B." question="As ações mitigatórias imediatas e as ações mitigatórias a longo prazo são descrita, correlacionadas e registradas e verificadas? Como?"></Question>
               </QuestionContent>
             </QuestionToggle>
-            <QuestionToggle title="Gestão de Fornecedores  | Monitoramento, análise crítica e gestão de mudanças dos serviços de fornecedores">
-              <QuestionContent description="A organização deve monitorar, analisar criticamente, avaliar e gerenciar regularmente a mudança nas práticas de segurança da informação dos fornecedores e na prestação de serviços.">
-                <Question id="7_pergunta_4_A" letter="A." question="Os fornecedores estão sujeitos a monitoramento, análise crítica e e auditorias em intervalos regulares de tempo?"></Question>
-                <Question id="7_pergunta_4_A" letter="B." question="As mudanças na prestação de serviços estão sujeitas a um procedimento de gestão que inclui avaliação de segurança e risco?   "></Question>
+            <QuestionToggle title="10.2 (g) - Não conformidade e ação corretiva">
+              <QuestionContent description="Quando uma não conformidade ocorre, a organização deve: Resultados de qualquer ação corretiva.">
+                <Question id="7_pergunta_13_A" letter="A." question="São criados planos de ação e próximos passos a partir das não conformidades encontradas?
+                São estipulados prazos e SLAs para as correções? Esses prazos consideram a críticidade das não conformidades?
+                A organização registra os resultados das ações corretivas?"></Question>
               </QuestionContent>
             </QuestionToggle>
           </QuestionsForm>

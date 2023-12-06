@@ -7,18 +7,17 @@ const theme = defaultTheme;
 export const NavList = styled.div`
   display: flex;
   gap: 2rem;
-
-  
 `;
 
 export const Container = styled.header`
   position: fixed;
   width: 100%;
-  background: ${(props) => (props.isMobileMenuOpen ? theme.violet : "transparent")};
+  background: ${(props) => (props.isMobileMenuOpen ? theme.violet : props.isOpen ? theme.violet : props.isScrolled ? theme.violet : "transparent")};
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   z-index: 3;
   padding: 2rem 3.75rem;
-  padding-bottom: 5.5rem;
+  padding-bottom: 6rem;
+  transition: background 0.3s ease;
 
   @media (max-width: 873px) {
     height: ${(props) => (props.isMobileMenuOpen ? "100vh" : "auto")};
@@ -29,8 +28,6 @@ export const Container = styled.header`
     width: 100%;
   }
 `;
-
-
 
 export const MenuMobile = styled.div`
   color: white;
@@ -70,16 +67,16 @@ export const LinkList = styled.div`
     position: relative;
     text-decoration: none;
 
-  &:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background: linear-gradient(293deg, ${theme.lightBlue} 0%, ${theme.blue} 58.6%, ${theme.violetDarker} 101.37%);
-    transition: width 0.3s ease-in-out;
-  }
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background: linear-gradient(293deg, ${theme.lightBlue} 0%, ${theme.blue} 58.6%, ${theme.violetDarker} 101.37%);
+      transition: width 0.3s ease-in-out;
+    }
 
     &:hover {
       &:before {
@@ -88,6 +85,7 @@ export const LinkList = styled.div`
     }
   }
 `;
+
 export const ContainerMobile = styled.div`
   position: relative;
   top: 1;
@@ -102,7 +100,6 @@ export const ContainerMobile = styled.div`
   justify-content: space-between;
   gap: 5rem;
 
-
   ${LinkList} {
     width: 100%;
     display: ${(props) => (props.isOpen ? "flex" : "none")};
@@ -114,42 +111,31 @@ export const ContainerMobile = styled.div`
     padding: 5rem 0 8rem 0;
     border-bottom: 2px solid ${theme.lightBlue};
 
-
     >a {
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    font-size: 1.24rem;
-    font-weight: 500;
-    position: relative;
-    text-decoration: none;
-    width: 100%;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      font-size: 1.24rem;
+      font-weight: 500;
+      position: relative;
+      text-decoration: none;
+      width: 100%;
 
       &:hover {
         background: linear-gradient(90deg, rgba(88, 130, 193, 0.25) 0.08%, rgba(88, 130, 193, 0.00) 99.94%);
         box-shadow: 2px 4px 22px 0px #04060F;
       }
-  
     }
-
-  }
-
-  
-
-  ${LinkList}:nth-child(1) {
-    transition: 1s 0.4s;
-  }
-  ${LinkList}:nth-child(2) {
-    transition: 1s 0.8s;
   }
 
   > .exitButton {
     width: 100%;
+
     > button {
       width: 100%;
       background: none;
@@ -163,7 +149,7 @@ export const ContainerMobile = styled.div`
       &:hover {
         background: linear-gradient(90deg, rgba(88, 130, 193, 0.25) 0.08%, rgba(88, 130, 193, 0.00) 99.94%);
         box-shadow: 2px 4px 22px 0px #04060F;
-    }
+      }
     }
   }
 `;
@@ -177,38 +163,35 @@ export const ContainerDesktop = styled.div`
 
   >a {
     > img {
-    width: 200px;
-    max-height: 100%;
-
-    @media (max-width: 873px) {
-      display: none;
-      width: 100%;
+      width: 200px;
       max-height: 100%;
+
+      @media (max-width: 873px) {
+        display: none;
+        width: 100%;
+        max-height: 100%;
+      }
     }
   }
 
-  }
-  
   > .exitButton {
 
-      >button {
-        background: none;
-        border: none;
-        color: white;
-        font-size: 1.24rem; 
-        cursor: pointer;
-        transition: color 0.5s ease;
+    >button {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.24rem; 
+      cursor: pointer;
+      transition: color 0.5s ease;
 
-        &:hover {
-          color: ${theme.lightBlue}
-        }
+      &:hover {
+        color: ${theme.lightBlue}
       }
-
+    }
 
     @media (max-width: 873px) {
       display: none;
     }
-
   }
 
   > div {
@@ -221,4 +204,3 @@ export const ContainerDesktop = styled.div`
     width: auto;
   }
 `;
-

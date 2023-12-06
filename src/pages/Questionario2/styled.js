@@ -40,6 +40,21 @@ export const TittleForm = styled.section`
     display: flex;
     gap: 2rem;
   }
+
+  @media (max-width: 576px) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    >div{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
 `;
 
 export const QuestionsForm = styled.section`
