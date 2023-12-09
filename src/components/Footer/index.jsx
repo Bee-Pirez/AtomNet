@@ -7,7 +7,7 @@ export function Footer() {
     return (
         <ContainerFooter>
             <p>
-              <FontAwesomeIcon icon={faCopyright} /> 2023 MedVision360 | Todos os direitos reservados
+              <FontAwesomeIcon icon={faCopyright} /> 2023 AtomNet | Todos os direitos reservados
             </p>
         </ContainerFooter>
     )
