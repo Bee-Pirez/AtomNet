@@ -44,16 +44,16 @@ export function SignUp() {
               <fieldset>
                 <div className="inputDiv">
                   <div className="inputContent">
-                    <Input name="Email" prefix="Enter your email" type="email" />
-                    <Input name="Password" prefix="Enter your password" type="password" />
-                    <Input name="Email" prefix="Enter your email" type="email" />
-                    <Input name="Password" prefix="Enter your password" type="password" />
+                    <Input name="razão social" prefix="Razão social" type="text" />
+                    <Input name="Cep" prefix="xxxxx-xxx" type="text" />
+                    <Input name="Cidade" prefix="Cidade" type="text" />
+                    <Input name="E-mail" prefix="Enter your password" type="email" />
                   </div>
                   <div className="inputContent">
-                    <Input name="Email" prefix="Enter your email" type="email" />
-                    <Input name="Password" prefix="Enter your password" type="password" />
-                    <Input name="Email" prefix="Enter your email" type="email" />
-                    <Input name="Password" prefix="Enter your password" type="password" />
+                    <Input name="CNPJ" prefix="Enter your email" type="text" />
+                    <Input name="Rua" prefix="Enter your password" type="text" />
+                    <Input name="Estado" prefix="Enter your email" type="text" />
+                    <Input name="Senha" prefix="Enter your password" type="password" />
                   </div>
                 </div>
                 <div className="content">
