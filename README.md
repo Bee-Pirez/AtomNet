@@ -9,7 +9,7 @@ https://atom-net.vercel.app/
 
 ### 👨‍💻 Principais tecnologias:
 
-- [React]([https://vuejs.org/](https://react.dev/))
+- [React]
   - Framework Front-End Javascript
 - [Javascript])
 - [React Router]
